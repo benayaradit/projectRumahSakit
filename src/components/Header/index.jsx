@@ -30,7 +30,7 @@ const Header = () => {
 
       {/* Navbar */}
       <nav className="bg-white shadow-md p-4 flex justify-between items-center transition-all duration-300">
-        <div className="text-2xl font-bold text-green-600">Rumah Sakit</div>
+        <a href='/' className="text-2xl font-bold text-green-600">Rumah Sakit</a>
         <div className="space-x-6">
           <a href="/" className="hover:text-teal-400">Home</a>
           <a href="/services" className="hover:text-teal-400">Services</a>

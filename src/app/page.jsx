@@ -1,13 +1,14 @@
-import FAQPage from "./component/Faq";
-import FormPendaftaran from "./component/FormPendaftaran";
-import InfoHomePage from "./component/InfoHomePage";
+import Register from "@/components/Register";
+import FAQPage from "../components/Faq";
+import FormPendaftaran from "../components/FormPendaftaran";
+import InfoHomePage from "../components/InfoHomePage";
 
 const Page = ()=> {
   return (
 <>
 <InfoHomePage/>
 <FAQPage/>
-<FormPendaftaran/>
+<Register/>
 </>
   );
 }

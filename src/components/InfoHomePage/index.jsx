@@ -11,7 +11,7 @@ const InfoHomePage=()=>{
         <h1 className="text-4xl font-bold mb-4">Selamat Datang di Rumah Sakit Ayahanda</h1>
         <p className="text-lg mb-6">Kami berkomitmen untuk menyediakan layanan kesehatan terbaik untuk Anda dan keluarga.</p>
         <Link
-          href="/register"
+          href="#form-pendaftaran"
           className="bg-white text-teal-700 py-3 px-6 rounded-md hover:bg-gray-200 font-semibold transition"
         >
           Daftar Sekarang
@@ -95,8 +95,8 @@ const InfoHomePage=()=>{
       {/* Call to Action */}
       <section className="text-center my-10">
         <Link
-          href="/register"
-          className="bg-teal-700 text-white py-3 px-6 rounded-md hover:bg-teal-800 font-semibold transition"
+          href="#form-pendaftaran"
+          className="bg-teal-700  text-white py-3 px-6 rounded-md hover:bg-teal-800 font-semibold transition"
         >
           Daftar Online Sekarang
         </Link>
